@@ -21,13 +21,10 @@ def on_release(key):
                 
 
         string = "".join(pressedkeys)
-
-
-        print "----"*10
-        print string
-        #print a
-        #print pressedkeys
-        #return False
+        print ("----"*10)
+        print (string)
+        print ("a9aaaaaaaaaaaa")
+        # I print aaaaa here
 
 
 with Listener(on_release=on_release) as listener:
